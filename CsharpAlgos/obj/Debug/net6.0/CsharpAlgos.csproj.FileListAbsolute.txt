@@ -1,0 +1,5 @@
+C:\Users\lisaa\source\repos\CsharpAlgos\CsharpAlgos\obj\Debug\net6.0\CsharpAlgos.csproj.AssemblyReference.cache
+C:\Users\lisaa\source\repos\CsharpAlgos\CsharpAlgos\obj\Debug\net6.0\CsharpAlgos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lisaa\source\repos\CsharpAlgos\CsharpAlgos\obj\Debug\net6.0\CsharpAlgos.AssemblyInfoInputs.cache
+C:\Users\lisaa\source\repos\CsharpAlgos\CsharpAlgos\obj\Debug\net6.0\CsharpAlgos.AssemblyInfo.cs
+C:\Users\lisaa\source\repos\CsharpAlgos\CsharpAlgos\obj\Debug\net6.0\CsharpAlgos.csproj.CoreCompileInputs.cache

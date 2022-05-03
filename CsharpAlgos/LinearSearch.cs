@@ -5,17 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Linq.Expressions;
 
-
 namespace CsharpAlgos
 {
-       internal class LinearSearch 
+    internal class LinearSearch 
     {
-        //input data set to search
+        //input data set to search gloabal variable
+         int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, };
         public static int? LinearSearch1(int[] input, int n)
         {
-            int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, };
-
-            foreach (int current in input)
+                    foreach (int current in input)
             {
                 if (current == n)
                 {
@@ -28,7 +26,7 @@ namespace CsharpAlgos
         public static Boolean LinearSearch2(int[] input, int n)
         {
             //I want to make this a global variable, no need to reuse, needs refactoring
-            int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, }; foreach (int current in input)
+            foreach (int current in input)
             {
                 if (current == n)
                 {
@@ -47,6 +45,13 @@ namespace CsharpAlgos
             //find element that meets this condition
             int[] items2 = Array.FindAll(arr, element => element >= 5);
             Array.ForEach(items2, Console.WriteLine);
+        }
+public void Main(string[] args)
+        {
+            Console.WriteLine(LinearSearch1(arr, 4));
+            Console.WriteLine(LinearSearch1(arr, 14));
+            Console.WriteLine(LinearSearch2(arr, 4));
+            Console.WriteLine(LinearSearch2(arr, 14));
         }
     }
 }

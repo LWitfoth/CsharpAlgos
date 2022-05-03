@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CsharpAlgos
 {
-    public class NewBaseType
+    public class ArrMergeDataEvens
     {
         public static int[] FindEvenNumbers(int[] arr1, int[] arr2)
         {
@@ -30,15 +30,9 @@ namespace CsharpAlgos
             //cast from object array to int array
             return (int[])resultArr.ToArray(typeof(int));
         }
+
         public static void Main(string[] args)
         {
-        Console.WriteLine(LinearSearch1(arr, 4));
-        Console.WriteLine(LinearSearch1(arr, 14));
-             }
-
-        private static void Main(string[] args)
-        {
-
             Console.WriteLine("combines two arrays items if they are even numbers");
             int[] arr3 = { -8, 25, -34, 64, 2, 8 };
             int[] arr4 = { 0, -9, -39, 10, 70 };

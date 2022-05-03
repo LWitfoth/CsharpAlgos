@@ -22,8 +22,10 @@ namespace CsharpAlgos
             }
 
             return maxVal;
+    }
 
-
+        private void Main(string[] args)
+        {
 
             Console.WriteLine(findMax(8, 2, 100));
             Console.WriteLine(findMax(310, 98, 768));

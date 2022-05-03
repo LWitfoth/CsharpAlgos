@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CsharpAlgos
 {
-    internal class BinarySearch
+    public class BinarySearch
     {
         //assumes array is sorted in ascending order
         static Boolean binarySearch(int[] inputArray, int item)
@@ -32,8 +32,10 @@ namespace CsharpAlgos
                 }
             }
             return false;
+        }
 
-
+public static void Main(string[] args)
+        {
             int[] arr = { 0, 8, 23, 58, 60, 89, 132 };
             Console.WriteLine(binarySearch(arr, 45));
 

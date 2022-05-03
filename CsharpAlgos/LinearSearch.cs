@@ -8,10 +8,10 @@ using System.Linq.Expressions;
 
 namespace CsharpAlgos
 {
-    internal class LinearSearch
+       internal class LinearSearch 
     {
         //input data set to search
-        static int? LinearSearch1(int[] input, int n)
+        public static int? LinearSearch1(int[] input, int n)
         {
             int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, };
 
@@ -23,12 +23,9 @@ namespace CsharpAlgos
                 }
             }
             return null;
-
-            Console.WriteLine(LinearSearch1(arr, 4));
-            Console.WriteLine(LinearSearch1(arr, 14));
         }
 
-        static Boolean LinearSearch2(int[] input, int n)
+        public static Boolean LinearSearch2(int[] input, int n)
         {
             //I want to make this a global variable, no need to reuse, needs refactoring
             int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, }; foreach (int current in input)
@@ -39,12 +36,9 @@ namespace CsharpAlgos
                 }
             }
             return false;
-
-            Console.WriteLine(LinearSearch2(arr, 4));
-            Console.WriteLine(LinearSearch2(arr, 14));
         }
 
-        internal static void FindOne(int item, int[] arr)
+        public static void FindOne(int item, int[] arr)
         {
             //using the Array Class built in functions using Lambda expression
             //find one item

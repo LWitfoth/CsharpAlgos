@@ -18,6 +18,9 @@ namespace CsharpAlgos
                 reversed[i] = input[input.Length - i - 1];
             }
             return reversed;
+}
+ public static void Main(string[] args)
+        {
 
             Console.WriteLine("Reversed Order");
             int[] arrNeedsReverse = { 1, 2, 4, 6, 23, 67 };

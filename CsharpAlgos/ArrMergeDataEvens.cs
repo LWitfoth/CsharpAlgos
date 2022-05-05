@@ -31,14 +31,14 @@ namespace CsharpAlgos
             return (int[])resultArr.ToArray(typeof(int));
         }
 
-        public static void Main(string[] args)
-        {
-            Console.WriteLine("combines two arrays items if they are even numbers");
-            int[] arr3 = { -8, 25, -34, 64, 2, 8 };
-            int[] arr4 = { 0, -9, -39, 10, 70 };
-            int[] evenArr = FindEvenNumbers(arr3, arr4);
-            Array.ForEach(evenArr, Console.WriteLine);
-        }
+        //public static void Main(string[] args)
+        //{
+        //    Console.WriteLine("combines two arrays items if they are even numbers");
+        //    int[] arr3 = { -8, 25, -34, 64, 2, 8 };
+        //    int[] arr4 = { 0, -9, -39, 10, 70 };
+        //    int[] evenArr = FindEvenNumbers(arr3, arr4);
+        //    Array.ForEach(evenArr, Console.WriteLine);
+        //}
     }
 }
 

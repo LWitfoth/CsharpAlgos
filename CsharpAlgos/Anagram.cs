@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace CsharpAlgos
 {
-    internal class Anagram
+    public class Anagram
     {
-        public static void Main(string[] args)
-        {
-            AnagramTest("turner", "truern");
-        }
-        static void AnagramTest(string wordOne, string wordTwo)
+        //public static void Main(string[] args)
+        //{
+        //    AnagramTest("turner", "truern");
+        //}
+        public static void AnagramTest(string wordOne, string wordTwo)
         {
             bool isAnagram = false;
             wordOne = wordOne.ToLower();

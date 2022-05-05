@@ -3,3 +3,10 @@ C:\Users\lisaa\source\repos\CsharpAlgos\CsharpAlgos\obj\Debug\net6.0\CsharpAlgos
 C:\Users\lisaa\source\repos\CsharpAlgos\CsharpAlgos\obj\Debug\net6.0\CsharpAlgos.AssemblyInfoInputs.cache
 C:\Users\lisaa\source\repos\CsharpAlgos\CsharpAlgos\obj\Debug\net6.0\CsharpAlgos.AssemblyInfo.cs
 C:\Users\lisaa\source\repos\CsharpAlgos\CsharpAlgos\obj\Debug\net6.0\CsharpAlgos.csproj.CoreCompileInputs.cache
+C:\Users\lisaa\source\repos\CsharpAlgos\CsharpAlgos\bin\Debug\net6.0\CsharpAlgos.deps.json
+C:\Users\lisaa\source\repos\CsharpAlgos\CsharpAlgos\bin\Debug\net6.0\CsharpAlgos.dll
+C:\Users\lisaa\source\repos\CsharpAlgos\CsharpAlgos\bin\Debug\net6.0\CsharpAlgos.pdb
+C:\Users\lisaa\source\repos\CsharpAlgos\CsharpAlgos\obj\Debug\net6.0\CsharpAlgos.dll
+C:\Users\lisaa\source\repos\CsharpAlgos\CsharpAlgos\obj\Debug\net6.0\refint\CsharpAlgos.dll
+C:\Users\lisaa\source\repos\CsharpAlgos\CsharpAlgos\obj\Debug\net6.0\CsharpAlgos.pdb
+C:\Users\lisaa\source\repos\CsharpAlgos\CsharpAlgos\obj\Debug\net6.0\ref\CsharpAlgos.dll
